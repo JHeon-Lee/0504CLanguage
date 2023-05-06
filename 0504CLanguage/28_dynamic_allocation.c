@@ -29,7 +29,7 @@ int main()
 	//	char* name1 = "\0";
 	//	char* name2 = "\0";
 	//	name1 = readName();
-	//	printf("name1 : %s\n", name1); // 쓰레기값 출력 -> name[30]이 지역변수이기 때문
+	//	printf("name1 : %s\n", name1); // 쓰레기값 출력 -> readName() 안에 name[30]이 지역변수이기 때문
 	//	name2 = readName();
 	//	printf("name2 : %s\n", name2);
 	//}
